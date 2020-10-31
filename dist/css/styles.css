@@ -11,6 +11,8 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
 :root {
+  --primary_color: #2f2f2f;
+  --secondary_color: rgba(255,174,103);
   --blue: #007bff;
   --indigo: #6610f2;
   --purple: #6f42c1;
@@ -66,8 +68,21 @@ body {
   line-height: 1.5;
   color: #212529;
   text-align: left;
-  background-color: #fff;
+  background-color: black;
+  
 }
+
+.settheback {
+  
+  background-image: url("../assets/img/showcase1.jpg") !important;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: -2;
+}
+
+
 
 [tabindex="-1"]:focus:not(:focus-visible) {
   outline: 0 !important;
@@ -159,12 +174,14 @@ sup {
 }
 
 a {
-  color: #bd5d38;
+  /* color: #bd5d38; */
+  color: var(--secondary_color);
   text-decoration: none;
   background-color: transparent;
 }
 a:hover {
-  color: #824027;
+  /* color: #824027; */
+  color: var(--secondary_color);
   text-decoration: underline;
 }
 
@@ -363,7 +380,7 @@ h1, h2, h3, h4, h5, h6,
   font-family: "Saira Extra Condensed", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-weight: 700;
   line-height: 1.2;
-  color: #343a40;
+  color: var(--secondary_color);
 }
 
 h1, .h1 {
@@ -4305,7 +4322,7 @@ input[type=button].btn-block {
 }
 
 .navbar-dark .navbar-brand {
-  color: #fff;
+  color: #e0e0e0;
 }
 .navbar-dark .navbar-brand:hover, .navbar-dark .navbar-brand:focus {
   color: #fff;
@@ -4323,7 +4340,7 @@ input[type=button].btn-block {
 .navbar-dark .navbar-nav .active > .nav-link,
 .navbar-dark .navbar-nav .nav-link.show,
 .navbar-dark .navbar-nav .nav-link.active {
-  color: #fff;
+  color: var(--secondary_color);
 }
 .navbar-dark .navbar-toggler {
   color: rgba(255, 255, 255, 0.5);
@@ -6097,7 +6114,8 @@ a.close.disabled {
 }
 
 .bg-primary {
-  background-color: #bd5d38 !important;
+  /* background-color: #bd5d38 !important; */
+  background-color: black !important;
 }
 
 a.bg-primary:hover, a.bg-primary:focus,
@@ -9799,7 +9817,8 @@ button.bg-dark:focus {
 }
 
 .text-primary {
-  color: #bd5d38 !important;
+  /* color: #bd5d38 !important; */
+  color: var(--secondary_color);
 }
 
 a.text-primary:hover, a.text-primary:focus {
@@ -10002,7 +10021,7 @@ h3 {
 }
 body {
   padding-top: 3.375rem;
-  color: #6c757d;
+  color: #e0e0e0;
 }
 
 @media (min-width: 992px) {
@@ -10100,7 +10119,8 @@ p.lead {
   margin-right: 0;
 }
 .social-icons .social-icon:hover {
-  background-color: #bd5d38;
+  /* background-color: #bd5d38; */
+  background-color: var(--secondary_color);
 }
 
 .dev-icons {
@@ -10133,3 +10153,9 @@ section.resume-section .resume-section-content {
     padding-bottom: 5rem;
   }
 }
+
+
+
+
+
+  

@@ -2,14 +2,9 @@
 
 [Resume](https://startbootstrap.com/themes/resume/) is a resume and CV theme for [Bootstrap](https://getbootstrap.com/) created by [Start Bootstrap](https://startbootstrap.com/). This theme features a fixed sidebar with content sections to build a simple, yet elegant resume.
 
-## Preview
-
-[![Resume Preview](https://startbootstrap.com/assets/img/screenshots/themes/resume.png)](https://startbootstrap.github.io/startbootstrap-resume/)
-
-**[View Live Preview](https://startbootstrap.github.io/startbootstrap-resume/)**
-
 ## Status
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/287ba439-338d-4246-8493-164fa0327680/deploy-status)](https://app.netlify.com/sites/sad-ritchie-1d97a2/deploys)
 [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/StartBootstrap/startbootstrap-resume/master/LICENSE)
 [![npm version](https://img.shields.io/npm/v/startbootstrap-resume.svg)](https://www.npmjs.com/package/startbootstrap-resume)
 [![Build Status](https://travis-ci.org/StartBootstrap/startbootstrap-resume.svg?branch=master)](https://travis-ci.org/StartBootstrap/startbootstrap-resume)
